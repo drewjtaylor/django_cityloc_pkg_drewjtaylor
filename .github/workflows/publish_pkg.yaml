@@ -3,6 +3,9 @@ on:
     release:
         types: [created]
 jobs:
+    defaults:
+        run:
+            workding-directory: 'home/runner/work/django_cityloc_pkg_drewjtaylor/django_cityloc_pkg_drewjtaylor'
     deploy:
         runs-on: ubuntu-20.04
         steps:
